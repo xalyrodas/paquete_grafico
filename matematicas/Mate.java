@@ -1,10 +1,9 @@
-package src.matematicas;
-
-import opciones.listaOpciones;
+package matematicas;
 
 import java.util.Scanner;
+import opciones.listaOpciones;
 
-public class Mate {
+public class Mate{
     public static void cargarlista_1(){
 
         String[] listaDeOpciones = {

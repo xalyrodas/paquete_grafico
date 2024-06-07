@@ -1,4 +1,4 @@
-package src.opciones;
+package opciones;
 
 public class listaOpciones {
 //Carga y muestra las opciones en grupos de dos, cada grupo en una línea separada.

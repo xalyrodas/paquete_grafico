@@ -1,3 +1,5 @@
+package src;
+
 import Edad.Edad_1;
 import IG.Banner;
 import Lista.ListaDeCompras;
@@ -5,6 +7,7 @@ import opciones.listaOpciones;
 import java.util.Scanner;
 import matematicas.Mate;
 import  programas.IMC;
+import src.grados.programa_grados;
 
 public class Main {
     public static void main(String[] args) {
@@ -43,12 +46,16 @@ public class Main {
                     break;
                 case 2: IMC.programaIMC();
                     break;
+                case 3:
+                    programa_grados.pgrados();
+                    break;
                 case 4:
                     Edad_1.solicitarYCalcularEdad();
                     break;
                 case 5:
                     ListaDeCompras.list();
                     break;
+
                 case 10:
                     programa=false;
                     break;
