@@ -8,6 +8,7 @@ import java.util.Scanner;
 import matematicas.Mate;
 import  programas.IMC;
 import src.grados.programa_grados;
+import src.monedas.convertirmonedas;
 
 public class Main {
     public static void main(String[] args) {
@@ -55,6 +56,8 @@ public class Main {
                 case 5:
                     ListaDeCompras.list();
                     break;
+                case 7:
+                    convertirmonedas.cargarlista_1();
 
                 case 10:
                     programa=false;
