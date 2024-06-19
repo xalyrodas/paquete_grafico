@@ -1,7 +1,6 @@
 package matematicas;
 
 import java.util.Scanner;
-import opciones.listaOpciones;
 
 public class Mate{
     public static void cargarlista_1(){
@@ -11,7 +10,7 @@ public class Mate{
                 "multiplicacion","dividir"
         };
 
-        listaOpciones.cargarOpciones(listaDeOpciones);
+        listaDeOpciones.equals(listaDeOpciones);
 
 
         Scanner op=new Scanner(System.in);

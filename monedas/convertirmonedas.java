@@ -1,6 +1,6 @@
-package src.monedas;
+package monedas;
 
-import opciones.listaOpciones;
+import Lista.listaOpciones;
 
 
 import java.util.Scanner;

@@ -1,15 +1,16 @@
-package src;
-
 import Edad.Edad_1;
+import Estudiantes.Escuela;
+import Estudiantes.primero_primaria;
 import IG.Banner;
 import Lista.ListaDeCompras;
-import opciones.listaOpciones;
+import Lista.listaOpciones;
+
 import java.util.Scanner;
 import matematicas.Mate;
 import  programas.IMC;
-import src.Libros.Biblioteca;
-import src.grados.programa_grados;
-import src.monedas.convertirmonedas;
+import Libros.Biblioteca;
+import grados.programa_grados;
+import monedas.convertirmonedas;
 
 public class Main {
     public static void main(String[] args) {
@@ -63,6 +64,8 @@ public class Main {
                 case 8:
                     Biblioteca.programa();
                     break;
+                case 9:
+                    primero_primaria.alumnos();
                 case 10:
                     programa=false;
                     break;

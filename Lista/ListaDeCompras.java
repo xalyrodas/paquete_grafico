@@ -1,6 +1,6 @@
 package Lista;
 
-import opciones.listaOpciones;
+import Lista.listaOpciones;
 
 import java.util.ArrayList;
 import java.util.List;

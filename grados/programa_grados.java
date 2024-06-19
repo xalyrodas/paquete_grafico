@@ -1,4 +1,4 @@
-package src.grados;
+package grados;
 
 import java.util.Scanner;
 
