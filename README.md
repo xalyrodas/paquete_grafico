@@ -350,9 +350,22 @@ El código  pertenece a un paquete denominado src.opciones, y define una clase l
 + Inicialización: String elementoMasGrande = listaDeOpciones[0]; inicializa la variable elementoMasGrande con el primer elemento del array.
 + Iteración y Comparación: Un bucle for-each recorre cada opción del array y compara su longitud con la del elementoMasGrande. Si se encuentra una opción más larga, elementoMasGrande se actualiza con esta nueva opción.
 + Retorno: El método retorna la cadena con mayor longitud.
+# LIBROS 
 
+### clase biblioteca 
++ Imprime la palabra "biblioteca".
++ Crea 10 objetos de la clase libro con diferentes títulos, autores y fechas.
++ Imprime los títulos, fechas y autores de estos libros.
++ Imprime la representación en cadena de uno de los libros (libro1).
+#### clase libro
++ Clase: La clase libro se declara como public, lo que significa que es accesible desde otras clases y paquetes.
++ Atributos privados: titulo, autor, y fecha son atributos privados de tipo String. Al ser privados (private), solo son accesibles dentro de la propia clase libro, lo que encapsula los datos y protege la integridad de los mismos.
 
+### constructores
++ Constructor: Este es el constructor de la clase libro. Un constructor se utiliza para inicializar los objetos de la clase.
++ Parámetros: El constructor recibe tres parámetros (titulo, autor, fecha) que se asignan a los atributos correspondientes de la clase utilizando this para distinguir entre los nombres de parámetros y los nombres de los atributos de la clase.
 
-
-
-
++ Métodos getters: Estos métodos (getTitulo(), getAutor(), y getFecha()) son públicos y proporcionan acceso a los valores de los atributos privados de la clase. Son necesarios porque los atributos son privados y no accesibles directamente desde fuera de la clase.
+ + Método toString(): El método toString() se anula (@Override) de la clase Object, que es la clase base de todas las clases en Java. Este método convierte el objeto en una cadena de texto, proporcionando una representación legible de los datos del objeto.
++  Salida: El método toString() devuelve una cadena que contiene los valores de titulo, autor y fecha del libro, formateados de una manera específica.
+ este codigo es un objeto el cual describimos en este caso nombramos los autores,fecha de creacion y nombre del libro.
