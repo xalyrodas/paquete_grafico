@@ -12,7 +12,7 @@ Este codigo La funcionalidad del programa se basa en la interacción del usuario
 
 ## El código importa varios paquetes y clases:
 
-#### Edad.Edad_1
+#### matematicas.Edad_1
 #### IG.Banner
 #### Lista.ListaDeCompras
 #### opciones.listaOpciones

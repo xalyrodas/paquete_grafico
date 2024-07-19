@@ -1,4 +1,4 @@
-package Edad;
+package matematicas;
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;

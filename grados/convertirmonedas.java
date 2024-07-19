@@ -1,4 +1,4 @@
-package monedas;
+package grados;
 
 import Lista.listaOpciones;
 
